@@ -320,6 +320,7 @@ svg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  -webkit-filter: drop-shadow(0px 20px 5px #aeaeae);
 }
 
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }
@@ -364,6 +365,10 @@ svg {
 .ui-section-feature__layout:nth-of-type(even) {
   margin-bottom: 5rem;
   margin-top: 5rem;
+}
+
+#ui-section-feature-shadow {
+  -webkit-filter: drop-shadow(0px 10px 5px #aeaeae);
 }
 
 /*--------------------------------------------------------------
