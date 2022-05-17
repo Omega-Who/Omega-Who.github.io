@@ -314,6 +314,14 @@ svg {
   background-color: var(--ui-color-n-075)
 }
 
+#ui-section-hero-splash {
+  object-fit: fill;
+  background-image: url("img/PortfolioSplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }
 
 /*--------------------------------------------------------------
