@@ -1,3 +1,5 @@
-# Please Be Aware That I Hated Making This.
+# This is my Personal Portfolio linked to omega-who.github.io
 
-*To Visit This Site Go Here:* <a href="https://omega-who.github.io">omega-who.github.io</a>
+*This Site was created using the Theme Alighn from Uisual*
+
+[Uisual](https://uisual.com)
