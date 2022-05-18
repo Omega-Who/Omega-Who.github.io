@@ -121,7 +121,10 @@ TABLE OF CONTENT
 2.0 FOUNDATION
 --------------------------------------------------------------*/
 
-html { box-sizing: border-box; }
+html { 
+  box-sizing: border-box; 
+  scroll-behavior: smooth;
+}
 
 *,
 *:before,
