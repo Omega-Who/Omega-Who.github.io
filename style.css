@@ -46,21 +46,23 @@ TABLE OF CONTENT
   --ui-color-n-000: #fff;
   --ui-color-n-025: #fafafa;
   --ui-color-n-050: #f5f5f5;
-  --ui-color-n-075: #b4b4b4;
+  --ui-color-n-075: #717171;
   --ui-color-n-300: #aeaeae;
   --ui-color-n-500: #353535;
   --ui-color-n-900: #1a1a1a;
 
+  --ui-color-n-primary  : #4e4e58;
+
   /* BACKGROUND COLOR */
   
-  --ui-color-background-primary  : var(--ui-color-n-000);
+  --ui-color-background-primary  : var(--ui-color-n-primary);
   --ui-color-background-secondary: var(--ui-color-n-050);
   --ui-color-background-tertiary : var(--ui-color-n-025);
 
   /* TYPOGRAPHY COLOR */
 
-  --ui-color-typography-heading: var(--ui-color-n-500);
-  --ui-color-typography-body   : var(--ui-color-n-900);
+  --ui-color-typography-heading: var(--ui-color-n-000);
+  --ui-color-typography-body   : var(--ui-color-n-050);
   --ui-color-typography-note   : var(--ui-color-n-300);
   --ui-color-typography-button : var(--ui-color-n-000);
 
@@ -320,7 +322,7 @@ svg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  -webkit-filter: drop-shadow(0px 20px 5px #aeaeae);
+  -webkit-filter: drop-shadow(0px 20px 5px #676780);
 }
 
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }
@@ -368,7 +370,7 @@ svg {
 }
 
 #ui-section-feature-shadow {
-  -webkit-filter: drop-shadow(0px 10px 5px #aeaeae);
+  -webkit-filter: drop-shadow(0px 10px 5px #676780);
 }
 
 /*--------------------------------------------------------------
