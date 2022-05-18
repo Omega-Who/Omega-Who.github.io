@@ -303,6 +303,11 @@ svg {
 
 .ui-section-header__layout { justify-content: space-between; }
 
+#ui-section-header-space {
+  padding-right: 1rem;
+  color: var(--ui-color-typography-body)
+}
+
 /*--------------------------------------------------------------
 |
 | 7.2 HERO
