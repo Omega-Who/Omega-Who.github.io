@@ -51,7 +51,9 @@ TABLE OF CONTENT
   --ui-color-n-500: #353535;
   --ui-color-n-900: #1a1a1a;
 
-  --ui-color-n-primary  : #4e4e58;
+  --ui-color-n-primary  : #282828;
+  --ui-color-n-body     : #505050;
+  --ui-color-n-other    : #404040;
 
   /* BACKGROUND COLOR */
   
@@ -148,7 +150,7 @@ body {
 --------------------------------------------------------------*/
 
 a {
-  color: var(--ui-color-brand);
+  color: var(--ui-color-n-075);
   text-decoration: none;
 }
 
@@ -325,7 +327,7 @@ svg {
 }
 
 #ui-section-hero-splash {
-  box-shadow: 0px 20px 20px #676780, 0px -20px 20px #676780;
+  box-shadow: 0px 20px 20px #505050, 0px -20px 20px #505050;
   object-fit: fill;
   background-image: url("img/PortfolioSplash.png");
   background-repeat: no-repeat;
@@ -378,7 +380,7 @@ svg {
 }
 
 #ui-section-feature-shadow {
-  -webkit-filter: drop-shadow(5px 20px 5px #676780);
+  -webkit-filter: drop-shadow(5px 20px 5px #505050);
 }
 
 /*--------------------------------------------------------------
