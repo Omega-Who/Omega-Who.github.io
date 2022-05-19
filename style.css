@@ -325,7 +325,7 @@ svg {
 }
 
 #ui-section-hero-splash {
-  box-shadow: 0px 20px 5px #676780, 0px -20px 5px #676780;
+  box-shadow: 0px 20px 20px #676780, 0px -20px 20px #676780;
   object-fit: fill;
   background-image: url("img/PortfolioSplash.png");
   background-repeat: no-repeat;
@@ -378,7 +378,7 @@ svg {
 }
 
 #ui-section-feature-shadow {
-  -webkit-filter: drop-shadow(0px 10px 5px #676780);
+  -webkit-filter: drop-shadow(5px 20px 5px #676780);
 }
 
 /*--------------------------------------------------------------
