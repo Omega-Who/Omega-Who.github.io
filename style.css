@@ -335,6 +335,15 @@ svg {
   background-position: center;
 }
 
+#ui-section-hero-splash-projects {
+  box-shadow: 0px 20px 20px #505050, 0px -20px 20px #505050;
+  object-fit: fill;
+  background-image: url("img/ProjectSplash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .ui-section-hero--image { margin-top: var(--ui-gap-hero); }
 
 /*--------------------------------------------------------------
