@@ -1,171 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!-- META -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Charles Parker">
-    <meta name="description" content="Projects Directory">
-    <meta name="referrer" content="unsafe-url">
-    <meta name="robots" content="index, follow">
-    <!-- SPEED -->
-    <link rel="preconnect" href="https://res.cloudinary.com">
-    <link rel="dns-prefetch" href="https://res.cloudinary.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <!-- LINK -->
-    <link rel="me" href="#">
-    <link rel="canonical" href="#">
-    <!-- PERFORMANCE -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
     <link rel="preload" as="style" href="style.css">
     <link rel="stylesheet" href="style.css">
-    <!-- TITLE -->
-    <title>Charles' Portfolio</title>
+    <title>Omega's Portfolio</title>
   </head>
-  <body>
-    <header role="banner" class="ui-section-header">
-      <div class="ui-layout-container">
-        <div class="ui-section-header__layout ui-layout-flex">
-          <!-- LOGO -->
-          <a href="index.html" role="link" aria-label="#" class="ui-section-header--logo">
-            <img src="img\favicon\Icon.png" width="48" height="auto">
-          </a>
-          <!-- HAMBURGER -->
-          <!-- MENU -->
-          <nav role="navigation" class="ui-section-header--nav ui-layout-flex" style="align-content: right;">
-            <a href="index.html" role="link" aria-label="#" class="ui-section-header--nav-link" id="ui-section-header-space">About Me</a>
-            <a href="projects.html" role="link" aria-label="#" class="ui-section-header--nav-link" id="ui-section-header-space">Projects</a>
-            <a href="contact.html" role="link" aria-label="#" class="ui-section-header--nav-link" id="ui-section-header-space">Contact Me</a>
-          </nav>
+    <body>
+      <section class="heading">
+        <ul>
+          <li><h2><a href="projects.html">Projects</a></h2></li>
+          <li><h2><a>About</a></h2></li>
+          <li><h2><a>Contact</a></h2></li>
+        </ul>
+        </section>
+      <h1 style="padding-top: 25px; text-decoration: underline;">Projects I'm Working On</h1>
+      <br>
+      <div class="umbra">
+        <h1 class="centerText" style="color:aliceblue; text-decoration: underline;">
+          <a href="https://www.pokemonworkshop.com/en/games/pokemon-umbra" target="_blank" style="color:aliceblue;">Pokemon Umbra</a>
+        </h1>
+        <div style="text-align: left;">
+          <p>
+            <span style="font-weight: bold;">Synopsis:</span> The player comes from a family of successful trainers - two of your cousins, 
+            Martin and Mariana, have high positions in the Vereshad region. Martin being one of the 
+            region's gym leaders and Mariana being the champion, your parents would often compare you to them. 
+            Finally deciding it's time to become a trainer and prove yourself, you meet with the new temporary Professor, 
+            Professor Sakura, to get your starter Pokémon and begin your journey. While there you meet with your 
+            childhood friend "Damien" and someone entirely new to this region, "Eva!"
+          </p>
+          <br><p>
+            I provide assistance on making and managing the games maps. We use a map making program called "Tiled" to create our maps,
+            they then get ported over to RPGMaker XP where we use a development kit known as "Pokemon SDK" or "PSDK" allowing us to have the 
+            capabilities of a Pokémon game within RPGMaker.
+          </p>
         </div>
       </div>
-    </header>
-    <main role="main">
-      <!-- LANDING -->
-      <section style="text-align:center;">
-        <div class="ui-section-feature" id="ui-section-hero-splash-projects" style="color: white;">
-          <h1>This Landing is Dedicated to certain Projects</h1>
-          <nav role="navigation">
-            <h3>These projects pretain to <a href="#games" role="link" aria-label="#" class="ui-text-note">Games</a>,
-              <a href="#scripts" role="link" aria-label="#" class="ui-text-note">Scripts <span style="color: white;">and</span> Templates</a> along with, 
-              <a href="#programs" role="link" aria-label="#" class="ui-text-note">Programs</a>
-            </h3>
-          </nav>
-        </div>
-      </section>
-      <!-- PROJECTS REDIRECT -->
-      <section class="ui-section-feature" id="games">
-        <div class="ui-layout-container">
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- IMAGE -->
-            <img src="img\UmbraPromo.png" loading="lazy" alt="#" class="ui-image-half-left" id="ui-section-feature-shadow">
-            <!-- Umbra -->
-            <div>
-              <h2>Pokémon Umbra</h2>
-              <p class="ui-text-intro" style="font-size: large;">The player comes from a family of successful trainers - two of your cousins, Martin and Mariana, have high positions in the Vereshad region. Martin being one of the region's gym leaders and Mariana being the champion, your parents would often compare you to them. Finally deciding it's time to become a trainer and prove yourself, you meet with the new temporary Professor, Professor Sakura, to get your starter Pokémon and begin your journey. While there you meet with your childhood friend "Damien" and someone entirely new to this region, "Eva!"</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">I work as a Level Designer on Umbra.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">This game is being developed in the PSDK Devkit.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Check out Pokémon Umbra's <a href="https://twitter.com/PokemonUmbra" target="_blank">Twitter</a>.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Pokémon Umbra also has a <a href="https://pokemon-umbra.fandom.com/wiki/Pok%C3%A9mon_Umbra_Wiki" target="_blank">Wiki</a>.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- Elysium -->
-            <div >
-              <h2>Pokémon Elysium</h2>
-              <p class="ui-text-intro" style="font-size: large;">No story summary has been written as of yet.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">I'm a Quality Assurance member and Region Map artist on Elysium.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">This game is being developed in the Essentials Devkit.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Check out Pokémon Elysium's <a href="https://twitter.com/PokemonElysium" target="_blank">Twitter</a>.</li>
-              </ul>
-            </div>
-            <!-- IMAGE -->
-            <img src="img\ElysiumPromo.png" loading="lazy" alt="#" class="ui-image-half-right" id="ui-section-feature-shadow">
-          </div>
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">  
-            <!-- IMAGE -->
-            <img src="img\PeridotPromo.png" loading="lazy" alt="#" class="ui-image-half-right" height=auto width="512px" id="ui-section-feature-shadow">
-            <!-- Personal Projects -->
-            <div>
-              <h2>Project: Pokémon Peridot</h2>
-              <p class="ui-text-intro" style="font-size: large;">This is my personal project that is currently in the early stages of development.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">I plan on developing this game within the PSDK Devkit.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">A PokéDex of 250-360 is planned for this game, with some of the PokéDex being filled with regional variants.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Not much has been made for this game outside of design documents and the Region Map. (See Image Card)</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Current work on this projects is at a standstill due to school.</li>
-              </ul>
-              </div>
-          </div>
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- Python Game -->
-            <div>
-              <h2>Omega's Labyrinth</h2>
-              <p class="ui-text-intro" style="font-size: large;">This was a project I had made over the course of a couple weeks for my CS 162 Class. Project Files and Download can be found <a href="https://github.com/Omega-Who/Omegas-Labyrinth" target="_blank">Here</a>.</p>
-            </div>
-            <!-- IMAGE -->
-            <img src="img\LabyrinthPromo.png" loading="lazy" alt="#" class="ui-image-half-right" height=auto width="256px" id="ui-section-feature-shadow">
-          </div>
-        </div>
-      </section>
-      <section class="ui-section-feature" id="scripts">
-        <div class="ui-layout-container">
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- SCRIPTS -->
-            <div>
-              <h2>Scripts and Templates</h2>
-              <h3>HTML Templates</h3>
-              <p class="ui-text-intro" style="font-size: large;">The Repository for these can be found <a href="https://github.com/Omega-Who/Website-Templates" target="_blank">Here</a>.</p>
-              <h3>Scripts</h3>
-              <p class="ui-text-intro" style="font-size: large;">None have been developed yet.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="ui-section-feature" id="programs">
-        <div class="ui-layout-container">
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- PROGRAMS -->
-            <div>
-              <h2>Programs</h2>
-              <p class="ui-text-intro">None have been developed yet.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer role="contentinfo" class="ui-section-footer">
-      <div class="ui-layout-container">
-        <div class="ui-section-footer__layout ui-layout-flex">
-          <!-- COPYRIGHT -->
-          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; Charles Parker</small></p>
-          <!-- MENU -->          
-          <nav role="navigation" class="ui-section-footer--nav ui-section-footer--menu ui-layout-flex">
-            <a href="#" role="link" aria-label="#" class="ui-text-note"><small>Back to Top</small></a>
-            <a href="contact.html" role="link" aria-label="#" class="ui-text-note"><small>Contact Me</small></a>
-          </nav>
-          <!-- SOCIAL -->
-          <nav role="navigation" class="ui-section-footer--nav ui-section-footer--social ui-layout-flex">
-            <a href="https://github.com/Omega-Who" role="link" aria-label="#" target="_blank">
-              <img src="https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg" width="16" height="16" class="d-block" loading="lazy" decoding="async" stroke="#AEAEAE" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-            </a>
-          </nav>
+      <br>
+      <div class="crimson">
+        <h1 class="centerText" style="color:aliceblue; text-decoration: underline;">Pokemon Crimson</h1>
+        <div style="text-align: left;">
+          <p><span style="font-weight: bold;">Synopsis:</span> None to be provided as of [2/12/23].</p>
+          <br><p>
+            Pokemon Crimson is my own personal project being created solely by me for the time being. 
+            It aims to replicate the look--but not full feel--of older Pokémon games from the Gameboy 
+            and Gameboy Color eras. Progress for this can be found on my social media at irregular intervals.
+          </p>
         </div>
       </div>
-    </footer>
-  </body>
+      <br><br>
+      <h1 style="padding-top: 25px; text-decoration: underline;">Old Projects</h1>
+      <br>
+      <div class="labyrinth">
+        <h1 class="centerText">
+          <a href="https://github.com/Omega-Who/Omegas-Labyrinth" style="color:aliceblue; text-decoration: underline;">Omega's Labyrinth</a>
+        </h1>
+        <div style="text-align: left;">
+          <p>
+            <span style="font-weight: bold;">Synopsis:</span> This is a small python rouge-like game made to run in pythons console, contains custom graphics drawn by me. 
+          </p>
+          <br><p>
+            This was built as an assignment for my Highschools CS 162 class.
+            This project was built off a tutorial website walking me through step by step on how to make everything work. 
+            The project is no longer being updated as I have moved to focus onto development enviroments around C, C++, and Ruby.
+          </p>
+        </div>
+      </div>
+      <footer></footer>
+    </body>
 </html>
