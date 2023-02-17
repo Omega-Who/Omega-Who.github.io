@@ -1,5 +1,4 @@
 :root {
-  background-image: url(img/landingBG.png);
   background-color: #555555;
   color: aliceblue;
   font-family: Arial, Helvetica, sans-serif;
@@ -96,7 +95,7 @@ footer {
 }
 
 .about {
-  background-color: #000;
+  background-color: #1c1724;
   text-align: left;
   box-sizing: border-box;
   border-radius: 1rem;
